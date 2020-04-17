@@ -1,0 +1,189 @@
+/***************************ELEMENT TAGS******************************/
+body {
+  font-family: "Montserrat-regular", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*****************************CLASS TAGS*******************************/
+.container-fluid {
+  padding: 3% 15% 7% 15%;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 5rem;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"sans-serif;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+right: 30%;
+position: absolute;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px
+}
+
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+
+.card{
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.footer-title{
+
+  padding-bottom: 40px;
+
+  margin: 0 auto;
+  font: 'Montserrat', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+.footer-button{
+  margin-bottom:90px;
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+.footer-play{
+  margin-right: 5px;
+}
+.footer-icon{
+  margin: 20px 10px;
+}
+.footer-icon-class{
+  padding: 0px;
+}
+/*******************************ID TAGS*********************************/
+#title {
+  background-color: #ff4c68;
+  color: white;
+
+}
+
+#features {
+  padding: 7% 15%;
+  background: white;
+  position: relative;
+
+
+}
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#press{
+  background-color:  #ef8172;
+  text-align: center;
+  padding: 3% 0;
+
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+/* media query breakpoint */
+@media (max-width: 1225px) {
+  .tite-image{
+    transform: rotate(0);
+    position: relative;
+    z-index: -1;
+  }
+#title{
+  text-align: center;
+}
+
+
+
+}
+
+#cta{
+  background: #ff4c68;
+padding-top: 70px;
+  color: white;
+  text-align: center;
+
+
+}
+
+#footer{
+  text-align: center;
+  padding: 7% 15%;
+}
